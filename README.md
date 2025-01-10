@@ -23,8 +23,11 @@ ___
 Entitno-relačný diagram (ERD)
 Zdrojové dáta zobrazené na ER diagrame.
 
-![Entitno-relačná schéma MovieLens](https://github.com/SomeUsername456/MovieLens-ETL/blob/main/MovieLens_ERD.png)
-<p align="center"><i>Obrázok 1: Entitno-relačná schéma MovieLens</i><p>
+<p align="center">
+  <img src="https://github.com/SomeUsername456/MovieLens-ETL/blob/main/MovieLens_ERD.png" alt=Entitno-relačná schéma MovieLens">
+  <br />
+  <i>Obrázok 1: Entitno-relačná schéma MovieLens</i>
+</p>
 
 Tabuľka ```users``` obsahuje informácie o jednotlivých používateľoch:
   - id: Unikátny identifikátor pre každého používateľa
@@ -78,8 +81,11 @@ Na účely analýzy bol vytvorneý __hviezdicový model__ (star schema). Faktov�
 
 Diagram hviezdicového modelu ukazuje predstavuje medzi faktovou tabuľkou a dimenziami.
 
-![Schéma hviezdy pre MovieLens](https://github.com/SomeUsername456/MovieLens-ETL/blob/main/movieLens_star_schema.png)
-<p align="center"><i>Obrázok 2: Schéma hviezdy pre MovieLens</i></p>
+<p align="center">
+  <img src="https://github.com/SomeUsername456/MovieLens-ETL/blob/main/movieLens_star_schema.png" alt="Schéma hviezdy pre MovieLens">
+  <br />
+  <i>Obrázok 2: Schéma hviezdy pre MovieLens</i>
+</p>
 
 ___
 ## 3. ETL proces v Snowflake
@@ -220,8 +226,11 @@ Pomocou ETL procesu sme v Snowflake sme upravili dát z ```.csv``` formátu do v
 ## 4. Vizualizácia dát
 Dashboard zahŕňa __6__ vizualizácií, ktoré poskytujú základný prehľad o hlavných metrikách a trendoch spojených s filmami, používateľmi a hodnoteniami. Tieto vizualizácie odpovedajú na kľúčové otázky a pomáhajú lepšie pochopiť správanie a preferencie používateľov.
 
-![Dashboard](https://github.com/SomeUsername456/MovieLens-ETL/blob/main/movielens_dashboard.png)
-<p align="center"><i>Obrázok 3: Dashboard MovieLnes datasetu</i></p>
+<p align="center">
+  <img src="https://github.com/SomeUsername456/MovieLens-ETL/blob/main/movielens_dashboard.png" alt="Dashboard">
+  <br />
+  <i>Obrázok 3: Dashboard MovieLnes datasetu</i>
+</p>
 
 ### Graf 1: Obľúbené žánre
 
