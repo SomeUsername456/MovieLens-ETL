@@ -73,7 +73,7 @@ Tabuľka ```ratings``` obsahuje informácie o hodnoteniach filmov:
   - rated_at: Kedy bolo hodnotenie udelené
 ___
 ## 2 Návrh dimenzionálneho modelu
-Na účely analýzy bol vytvorneý __hviezdicový model__ (star schema). Faktovú tabuľku predstavuje fact_ratings, tá je prepojená s ďalšími dimenziami:
+Na účely analýzy bol vytvorený __hviezdicový model__ (star schema). Faktovú tabuľku predstavuje fact_ratings, tá je prepojená s ďalšími dimenziami:
   - ```dim_movies```: Obsahuje informácie o filmoch (názov, autor, žáner, tagy).
   - ```dim_users```: Obsahuje informácie o používateľoch (pohlavie, PSČ, veková kategória, zamestnanie)
   - ```dim_date```: Obsahuje informácie o dátumoch hodnotení (deň, mesiac, rok, štvrťrok).
